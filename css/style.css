@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Raleway:ital,wght@0,400;1,500&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.fondo1 {
+
+background-color: #f66b30;
+}
+
+@media (min-width: 992px) {
+    .bodylateral {
+      padding-top: 0;
+      padding-left: 17rem;
+    }
+  }
+
+@media (min-width: 992px) {
+#sideNav {
+    font-weight: 400;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 15rem;
+    max-height: 15rem;
+  }
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: white !important;
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+    color: black !important;
+    display: block;
+    font-weight: bolder;
+  }
+}
+
+#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: white !important;
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+    color: black !important;
+    display: block;
+    font-weight: bolder;
+  }
+
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+section {
+      padding: 2rem;
+  }
+
+#trekking {
+    /* background-color: aquamarine; */
+}
+
+#escalada {
+    background-color: #c7cb6c;
+    color: black;
+    background-image: url("../img/7.png");
+        background-size: cover;
+        /* opacity: 0.5; */
+}
+#penion {
+    font-family: 'Fugaz One', cursive;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+    min-height: 250px;
+    background-image: url("../img/4baw.jpg");
+    background-size: cover;
+}
+@media (min-width: 992px) {
+#penion h3 {
+    letter-spacing: -5px;
+    font-size: 5rem;
+}
+
+}
+#acerca {
+    /* background-color: blue; */
+}
+
+#testimonios {
+  background-color: grey;
+  color: #fff;
+
+}
+
+.recomend {
+  font-style: italic;
+
+}
+#contacto {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: white;
+        background-color: #4e5c11;
+        background-image: url("../img/6.png");
+        background-size: cover;
+
+}
+#contacto a {
+    color: white;
+}
+
+.title1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+
+
+.service-item {
+    margin-bottom: 20px;
+  }
+
+  .service-icon {
+    float: left;
+    background: #f66b30;
+    padding: 15px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #f66b30;
+  }
+
+  .service-item i{
+    
+        color: #fff;
+        font-size: 24px;
+      
+  }
+  
+  .service-item:hover .service-icon {
+    background: #fff;
+}
+    .service-item:hover .service-icon i {
+      color: #f66b30;
+    }
+
+  
+
+  .service-title {
+    margin-left: 80px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    /* text-transform: uppercase; */
+    /* a {
+      color: #111;
+    } */
+
+  }
+  
+  .service-description {
+    margin-left: 80px;
+    line-height: 24px;
+  }
+
+  .whiti{
+      border-color: white;
+  }
+  .blaki{
+    border-color: rgba(0,0,0,0.2);
+    
+}
+  .vertical {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+
+.naranja {
+    background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.arreglo1 {
+    background-color: white;
+    padding:1rem;
+    /* border-radius: 2%; */
+
+
+}
